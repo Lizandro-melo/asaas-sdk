@@ -1,5 +1,4 @@
 import axios, { AxiosInstance } from "axios";
-import moment from "moment-timezone";
 import {
   PropsCreateClient,
   PropsCreateCreditCardSub,
@@ -7,8 +6,8 @@ import {
   PropsListSubscriptionPaymentsResponse,
   PropsPayment,
   PropsUpdateSubCreditCard,
-} from "../type/index.js";
-import { White_Log_Info, White_Log_Erro } from "../log/index.js";
+} from "./src/type/index.js";
+import { White_Log_Info, White_Log_Erro } from "./src/log/index.js";
 
 export default class Asaas {
   private API_KEY: string;
